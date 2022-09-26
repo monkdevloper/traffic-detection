@@ -22,7 +22,8 @@ weatherForm.addEventListener("submit", (e) => {
         messageTwo.textContent = data.forecast;
         messageThree.textContent =
           "Best time to start your journey, before 6:00 am, to escape traffic of " +
-          location;
+          location +
+          ". 😊";
       }
     });
   });
